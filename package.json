@@ -1,9 +1,10 @@
 {
-  "name": "shoesshop-be",
+  "name": "sneakers-adminjs-passport-mongo",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
+    "deploy": "git add . && git commit -m Build && git push",
     "seed": "node seed/seed.js"
   },
   "dependencies": {

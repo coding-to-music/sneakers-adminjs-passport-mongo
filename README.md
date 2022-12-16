@@ -1,3 +1,35 @@
+# sneakers-adminjs-passport-mongo
+
+# 🚀 sneakers eCommerce with adminjs passport and mongo 🚀
+
+https://github.com/coding-to-music/sneakers-adminjs-passport-mongo
+
+https://sneakers-adminjs-passport-mongo.vercel.app
+
+From / By https://github.com/Dat10496/Final-project-BE
+
+https://sneaker-store-dat.netlify.app/
+
+https://sneaker-app-dat.herokuapp.com/admin/login
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/sneakers-adminjs-passport-mongo.git
+git push -u origin main
+```
+
 # Sneaker Store
 
 Sneaker Store is a place where you can find and buy for your ambition sneakers that you need
