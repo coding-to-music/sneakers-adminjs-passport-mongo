@@ -58,9 +58,10 @@ app.use("/v1", indexRouter);
  */
 
 // Connect to mongoDB
+mongoose.set("strictQuery", false);
 mongoose
   .connect(mongoUri)
-  .then(() => console.log("Connected DB"))
+  .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log(err, "Connect DB Error"));
 
 // Error handlers

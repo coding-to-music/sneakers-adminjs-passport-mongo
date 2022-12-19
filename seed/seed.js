@@ -30,9 +30,10 @@ const refractorData = async () => {
   /**
    * Connect to DB & create data
    */
+  mongoose.set("strictQuery", false);
   mongoose
     .connect(mongoUri)
-    .then(() => console.log("Connected DB"))
+    .then(() => console.log("Connected to MongoDB"))
     .then(async () => await Item.create(data))
     .then(console.info)
     .catch((err) => console.log(err));

@@ -10,6 +10,10 @@ From / By https://github.com/Dat10496/Final-project-BE
 
 https://sneaker-store-dat.netlify.app/
 
+https://sneaker-app-api.onrender.com
+
+https://sneaker-app-api.onrender.com/v1/items?limit=12
+
 https://sneaker-app-dat.herokuapp.com/admin/login
 
 ## Environment variables:
