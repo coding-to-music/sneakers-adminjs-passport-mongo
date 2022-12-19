@@ -15,7 +15,20 @@ https://sneaker-app-dat.herokuapp.com/admin/login
 ## Environment variables:
 
 ```java
+PORT = "YOUR PORT"
 
+MONGO_URI = "YOUR URL CONNECT TO YOUR DB"
+
+GOOGLE_CLIENT_ID = "YOUR GOOGLE CLIENT ID USING PASSPORT"
+GOOGLE_CLIENT_SECRET = "YOUR GOOGLE CLIENT SECRET USING PASSPORT"
+
+JWT_SECRET_KEY = "YOUR JWT SECRET KEY"
+PASSPORT_SECRET_SESSION = "YOUR SECRET SESSION USING PASSPORT"
+SENDGRID_API_KEY = "YOUR API KEY USING SENDGRID"
+
+ADMINJS_EMAIL = "YOUR DEFAULT EMAIL LOGIN IN ADMINJS PAGE"
+ADMINJS_PASSWORD = "YOUR DEFAULT PASSWORD LOGIN IN ADMINJS PAGE"
+ADMINJS_SECRET_SESSION = "YOU ADMIN SECRET SESSION USING ADMINJS"
 ```
 
 ## GitHub
@@ -28,6 +41,23 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:coding-to-music/sneakers-adminjs-passport-mongo.git
 git push -u origin main
+```
+
+## Upgrade npm packages
+
+```
+ncu
+```
+
+Output
+
+```
+ adminjs              ^6.5.0  →   ^6.7.2
+ argon2              ^0.30.1  →  ^0.30.2
+ mongoose             ^6.7.0  →   ^6.8.0
+ node                ^19.0.0  →  ^19.3.0
+ swagger-ui-express   ^4.5.0  →   ^4.6.0
+ tslib                ^2.4.0  →   ^2.4.1
 ```
 
 # Sneaker Store

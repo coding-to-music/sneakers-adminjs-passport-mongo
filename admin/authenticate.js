@@ -2,8 +2,8 @@ require("dotenv").config;
 
 // Default admin
 const DEFAULT_ADMIN = {
-  email: process.env.EMAIL_ADMIN,
-  password: process.env.PASSWORD_ADMIN,
+  email: process.env.ADMINJS_EMAIL,
+  password: process.env.ADMINJS_PASSWORD,
 };
 
 const authenticate = async (email, password) => {
