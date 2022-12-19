@@ -12,9 +12,9 @@ https://sneaker-store-dat.netlify.app/
 
 https://sneaker-app-api.onrender.com
 
-https://sneaker-app-api.onrender.com/v1/items?limit=12
+https://sneaker-app-api.onrender.com/admin/login
 
-https://sneaker-app-dat.herokuapp.com/admin/login
+https://sneaker-app-api.onrender.com/v1/items?limit=12
 
 ## Environment variables:
 
@@ -78,7 +78,7 @@ User can login faster by google account, and make a payment online via paypal. A
 
 As a owner shop, i use adminjs dashboard which owner easily manage the products, user and the payment with CRUD
 
-Admin page: https://sneaker-app-dat.herokuapp.com/admin/login
+Admin page: https://sneaker-app-api.onrender.com/admin/login
 
 ## User Story
 
